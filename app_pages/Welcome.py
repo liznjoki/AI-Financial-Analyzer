@@ -38,8 +38,8 @@ def load_page():
                  \n Let's get started on your journey to smarter spending!"""
                  )
 
-    uploaded_file = st.file_uploader("Please upload your bank statement with Date, Description, Payment and Deposit Columns. Don't worry we will not save any information 
-                        beyond this session", type= "csv")
+    uploaded_file = st.file_uploader("""Please upload your bank statement with Date, Description, Payment and Deposit Columns. Don't worry we will not save any information 
+                        beyond this session""", type= "csv")
 
     if uploaded_file is not None:
         with st.spinner("Processing data......"):
