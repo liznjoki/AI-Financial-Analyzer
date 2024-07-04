@@ -3,7 +3,7 @@
 # Overview
 The AI Financial Analyzer is a tool designed to provide comprehensive financial analysis and insights to help users manage their finances effectively. It leverages artificial intelligence to analyze financial data and generate meaningful insights.
 
-To use the AI Financial Analyzer, go to : to visualize the app
+To use the AI Financial Analyzer, go to : https://ai-financial-analyzer.streamlit.app/
 
 # Features
 
