@@ -1,0 +1,9 @@
+[server]
+headless = true
+port = 8501
+enableXsrfProtection = false
+
+
+[browser]
+serverAddress = "AI-Financial-Analyzer"
+serverPort = 8501
