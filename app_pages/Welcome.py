@@ -39,7 +39,7 @@ def load_page():
                  )
 
     uploaded_file = st.file_uploader("""Please upload your bank statement with Date, Description, Payment and Deposit Columns. Don't worry we will not save any information 
-                        beyond this session""", type= "csv")
+                        beyond this session.""", type= "csv")
 
     if uploaded_file is not None:
         with st.spinner("Processing data......"):
